@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Mon portfolio - Loisirs</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Découvrez mes différentes loisirs">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <style>
+            h1 {
+                font-size: 2.5em;
+                font-weight: bold;
+                text-align: center;
+                color: #2c3e50;
+                margin-top: 40px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 10px;
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media screen and (max-width: 640px) {
+                h1{
+                    font-size: 100%;
+                }
+            }  
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Portfolio de Nasser Diogo Caetano</h1>
+        </header>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" aria-label="Fermer le menu de navigation">&times;</a>
+            <a href="mes-site-pref.html#moniframe">Vers insert</a>
+            <a href="contact.html">Vers formulaire</a>
+            <a href="mes-site-pref.html#form2">Vers formulaire 2</a>
+            <a href="loisir.html#form3">Vers formulaire 3</a>
+            <a href="index.html#tab">Vers tableau</a>
+            <a href="loisir.html#mavideo">Vers video</a>
+            <a href="index.html#styleinterne">Vers style interne css</a>
+            <a href="index.html#stylebalise">Vers CSS au sein d'une balise HTML.</a>
+            <a href="index.html">Vers :before</a>
+            <a href="loisir.html">Vers :after</a>
+            <a href="contact.html">Vers :hover</a>
+            <a href="contact.html">Vers :focus</a>
+            <a href="contact.html">Vers span</a>
+            <a href="index.html">Vers strong</a>
+            <a href="index.html">Vers em</a>
+            <a href="index.html">Vers inline-block</a>
+            <a href="index.html">Vers section</a>
+            <a href="index.html">Vers nav</a>
+            <a href="index.html">Vers article</a>
+            <span class="spec">Position absolue CSS ligne 337 & 349 (pour menu js).</span>
+            <span class="spec">Superposition partielle  CSS ligne 305 (pour menu js).</span>
+            <span class="spec">Overflow CSS ligne 309 & 310(menu js)</span><br><br><br>
+        </div>
+        <button class="openbtn" onclick="openNav()" aria-label="Ouvrir le menu de navigation">&#9776; Menu avec tout les élements</button>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li class="menu-accueil">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="menu-exp">
+                        <a href="mes-site-pref.html">Mes sites web préférés</a>
+                    </li>
+                    <li class="menu-loisir">
+                        <a href="loisir.html">Loisirs</a>
+                    </li>
+                    <li class="menu-contact">
+                        <a href="contact.html">Contactez-moi !</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="voyage">
+            <h2 class="h2-7" style="font-size: 40px; font-weight: normal; text-align:center; margin-left: 25px;">Voyage</h2>
+            <div class="sec">
+                <div class="mon-voyage">
+                    <img src="Image/byblosliban.jpg" alt="Vue panoramique de Byblos, Liban, montrant la mer et la ville historique">
+                </div>
+                <div class="exp-droit"><br>
+                    <p>Voyager l'été est pour moi bien plus qu'un simple passe-temps : c'est une opportunité précieuse d'explorer de nouveaux horizons et de m'imprégner de différentes cultures, enrichissant ainsi ma vision du monde.</p>
+                    <p>Cela me permet aussi de faire de belles rencontres et de passer d'excellents moments, car chaque voyage est une nouvelle aventure humaine et personnelle.</p>
+                    <p>J'aime autant voyager que <em>développer</em>… mais bon, faut avouer que l'un coûte beaucoup plus cher que l'autre... 🤣</p>
+                </div>
+            </div>
+        </section>
+        <section class="hardware">
+            <h2 class="h2-8" style="font-size: 40px; font-weight: normal; text-align:center; margin-left: 25px;">Hardware</h2>
+            <div class="sec">
+                <div class="exp-gauche">
+                    <img src="Image/mon_pc.jpg" alt="photo interieur ordinateur">
+                </div>
+                <div class="exp-droit"><br><br>
+                    <p>Le <em>hardware</em> est aussi l'un de mes passe-temps favoris, que j'aime pratiquer dès que l'occasion se présente.</p>
+                    <p>Tout ce qui touche à l'informatique me plaît : l'assemblage de pièces d'ordinateur est pour moi un puzzle géant, passionnant et gratifiant.</p>
+                    <p>Il m"arrive même de monter des PC pour certains de mes collègues (comme celui visible sur la photo).</p>
+                    <p>Assembler, optimiser et découvrir les dernières avancées technologiques en <em>informatique</em> est un vrai plaisir pour moi.</p>
+                </div>
+            </div>
+        </section>
+        <section id= "mavideo" class="dev">
+            <h2 class="h2-10" style="font-size: 40px; font-weight: normal; text-align:center; margin-left: 25px;">Developper</h2>
+            <div class="sec">
+                <div class="exp-gauche">
+                    <video autoplay muted loop controls class="vid" poster="Image/maxresdefault.jpg">
+                        <source src="video/Quest_ce_que_la_programmation.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la vidéo.
+                    </video>
+                </div>
+                <div class="exp-droit">
+                    <p>Et bien évidemment, le <strong>développement</strong> est devenu pour moi le véritable centre de mes intérêts. Je ne sais pas encore si je suis destiné à en faire mon métier, mais je suis sur d'une chose c'est que j'aime ça !</p>
+                    <p>C'est un domaine incroyablement vaste, rempli de possibilités infinies. On a même l'impression que toute une vie ne suffirait pas pour tout découvrir tant il y a à apprendre, à maîtriser.</p>
+                    <p>Je trouve fascinant de voir comment quelques lignes de code peuvent donner naissance à des applications, des jeux, des sites web. Mais je sais aussi que ce n'est pas facile pour tout le monde, surtout quand on débute et qu'on n'a jamais vraiment utilisé un ordinateur de manière technique.</p>
+                    <p>C'est pour cela que j'ai décidé de partager une petite vidéo. Elle offre une première approche claire et simple de ce qu'est réellement la <em>programmation</em>, pour que même les plus curieux puissent s'y retrouver !</p>
+                </div><br>
+                <aside>
+                    <h3>Si vous souhaitez en apprendre plus :</h3>
+                    <ul>
+                        <li id="monaside"><a href="https://www.codecademy.com/" target="_blank">Codecademy - <em>Apprends à programmer</em></a></li>
+                        <li><a href="https://www.pierre-giraud.com/html-css-apprendre-coder-cours/" target="_blank">Pierre Giraud - <em>Cours gratuits de développement web</em></a></li>
+                        <li><a href="https://www.stackoverflow.com/" target="_blank">Stack Overflow - <em>La communauté des développeurs</em></a></li>
+                        <li><a href="https://developer.mozilla.org/fr/" target="_blank">MDN Web Docs - <em>Documentation officielle</em></a></li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+        <section class="form-loisir">
+            <h2 id="form3" style="font-size: 40px; font-weight: normal; text-align:center; margin-left: 25px;">Et toi quels sont t'es loisirs ?</h2>
+            <div class="sec2">
+                <form method="post" action="mailto:diogo--caetano@hotmail.com">
+                    <fieldset>
+                        <legend><span>Quels sont vos centres d'intérêt ?</span></legend><br>
+
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="sport" value="sport" id="sport">
+                            <label for="sport">🏀 Sports</label>
+                        </div><br>
+                    
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="lire" value="lire" id="lire">
+                            <label for="lire">📚 Lire</label>
+                        </div><br>
+                    
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="developper" value="dev" id="dev">
+                            <label for="dev">💻 Développer</label>
+                        </div><br>
+                    
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="apprendre" value="app" id="app">
+                            <label for="app">🧠 Apprendre</label>
+                        </div><br>
+                    
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="autre" value="autre" id="autre">
+                            <label for="autre">🔍 Autre</label>
+                        </div><br>
+
+                        <label for="prenom">Entrez votre prénom</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required><br><br>
+                    
+                        <input type="submit" value="Envoyer"  style="cursor: pointer;">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 Nasser Diogo Caetano. Suivez-moi sur :</p>
+            <a href="https://www.linkedin.com/in/diogo-nasser-caetano-559865362/" target="_blank" aria-label="Profil LinkedIn de Nasser Diogo Caetano">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a> |
+            <a href="https://github.com/Diogo1140" target="_blank" aria-label="Profil Github de Nasser Diogo Caetano">
+                <i class="fab fa-github"></i> GitHub
+            </a> |
+            <a href="https://x.com/diogocaeta18902" target="_blank" aria-label="Profil Twitter de Nasser Diogo Caetano">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </footer>
+        <script src="monScript.js"></script>
+    </body>
+</html>

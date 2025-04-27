@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Mon portfolio - Contact</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Si vous souhaitez me contactez, completez le formulaire.">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <style>
+            h1 {
+                font-size: 2.5em;
+                font-weight: bold;
+                text-align: center;
+                color: #2c3e50;
+                margin-top: 40px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 10px;
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media screen and (max-width: 640px) {
+                h1{
+                    font-size: 100%;
+                }
+            }  
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Portfolio de Nasser Diogo Caetano</h1>
+        </header>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" aria-label="Fermer le menu de navigation">&times;</a>
+            <a href="mes-site-pref.html#moniframe">Vers insert</a>
+            <a href="contact.html">Vers formulaire</a>
+            <a href="mes-site-pref.html#form2">Vers formulaire 2</a>
+            <a href="loisir.html#form3">Vers formulaire 3</a>
+            <a href="index.html#tab">Vers tableau</a>
+            <a href="loisir.html#mavideo">Vers video</a>
+            <a href="index.html#styleinterne">Vers style interne css</a>
+            <a href="index.html#stylebalise">Vers CSS au sein d'une balise HTML.</a>
+            <a href="index.html">Vers :before</a>
+            <a href="loisir.html">Vers :after</a>
+            <a href="contact.html">Vers :hover</a>
+            <a href="contact.html">Vers :focus</a>
+            <a href="contact.html">Vers span</a>
+            <a href="index.html">Vers strong</a>
+            <a href="index.html">Vers em</a>
+            <a href="index.html">Vers inline-block</a>
+            <a href="index.html">Vers section</a>
+            <a href="index.html">Vers nav</a>
+            <a href="index.html">Vers article</a>
+            <span class="spec">Position absolue CSS ligne 337 & 349 (pour menu js).</span>
+            <span class="spec">Superposition partielle  CSS ligne 305 (pour menu js).</span>
+            <span class="spec">Overflow CSS ligne 309 & 310(menu js)</span><br><br><br>
+        </div>
+        <button class="openbtn" onclick="openNav()" aria-label="Ouvrir le menu de navigation">&#9776; Menu avec tout les élements</button>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li class="menu-accueil">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="menu-exp">
+                        <a href="mes-site-pref.html">Mes sites web préférés</a>
+                    </li>
+                    <li class="menu-loisir">
+                        <a href="loisir.html">Loisirs</a>
+                    </li>
+                    <li class="menu-contact">
+                        <a href="contact.html">Contactez-moi !</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="contact"><br>
+            <h2 class="h2-9" style="font-size: 40px; font-weight: normal; text-align:center; margin-left: 25px;">Contactez-moi !</h2><br>
+            <div class="sec2">
+                <form method="post" action="mailto:diogo--caetano@hotmail.com">
+                    <fieldset>
+                        <legend><span class="petit">Laissez votre avis à propos de mon premier site web </span></legend><br>
+                            <label for="prenom">Entrez votre prénom</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required><br><br>
+
+                            <label for="nom">Entrez votre nom</label>
+                            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required><br><br>
+
+                            <label for="mail">Entrez votre adresse mail</label>
+                            <input type="text" id="mail" name="mail" placeholder="Entrez votre adresse mail" required><br><br>
+
+                            <label for="prez">Votre avis du site</label>
+                            <textarea id="prez" name="presentation" placeholder="Écrivez ici" required></textarea><br><br>
+
+                            <input type="reset" value="Effacer et recommencer"> <input type="submit" value="Envoyer"> 
+                    </fieldset>
+                </form>
+            </div><br>
+            <div class="sec">
+                <p>Merci pour votre visite et à très bientôt pour une version encore meilleure !</p>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 Nasser Diogo Caetano. Suivez-moi sur :</p>
+            <a href="https://www.linkedin.com/in/diogo-nasser-caetano-559865362/" target="_blank" aria-label="Profil LinkedIn de Nasser Diogo Caetano">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a> |
+            <a href="https://github.com/Diogo1140" target="_blank" aria-label="Profil Github de Nasser Diogo Caetano">
+                <i class="fab fa-github"></i> GitHub
+            </a> |
+            <a href="https://x.com/diogocaeta18902" target="_blank" aria-label="Profil Twitter de Nasser Diogo Caetano">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </footer>
+        <script src="monScript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Mon portfolio - Accueil</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio de Nasser Diogo Caetano - Experience">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <style  id="styleinterne">
+            h1 {
+                font-size: 2.5em;
+                font-weight: bold;
+                text-align: center;
+                color: #2c3e50;
+                margin-top: 40px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 10px;
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+            }           
+            @media screen and (max-width: 640px) {
+                h1{
+                    font-size: 130%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Portfolio de Nasser Diogo Caetano</h1>
+        </header>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" aria-label="Fermer menu">&times;</a>
+            <a href="mes-site-pref.html#moniframe">Vers insert</a>
+            <a href="contact.html">Vers formulaire</a>
+            <a href="mes-site-pref.html#form2">Vers formulaire 2</a>
+            <a href="loisir.html#form3">Vers formulaire 3</a>
+            <a href="#tab">Vers tableau</a>
+            <a href="loisir.html#mavideo">Vers video</a>
+            <a href="index.html#styleinterne">Vers style interne css</a>
+            <a href="index.html#stylebalise">Vers CSS au sein d'une balise HTML.</a>
+            <a href="index.html">Vers :before</a>
+            <a href="loisir.html">Vers :after</a>
+            <a href="contact.html">Vers :hover</a>
+            <a href="contact.html">Vers :focus</a>
+            <a href="contact.html">Vers span</a>
+            <a href="index.html">Vers strong</a>
+            <a href="index.html">Vers em</a>
+            <a href="index.html">Vers inline-block</a>
+            <a href="index.html">Vers section</a>
+            <a href="index.html">Vers nav</a>
+            <a href="index.html">Vers article</a>
+            <span class="spec">Position absolue CSS ligne 337 & 349 (pour menu js).</span>
+            <span class="spec">Superposition partielle  CSS ligne 305 (pour menu js).</span>
+            <span class="spec">Overflow CSS ligne 309 & 310(menu js)</span><br><br><br>
+        </div>
+        <button class="openbtn" onclick="openNav()" aria-label="Ouvrir le menu de navigation">&#9776; Menu avec tout les élements</button>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li class="menu-accueil">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="menu-exp">
+                        <a href="mes-site-pref.html">Mes sites web préférés</a>
+                    </li>
+                    <li class="menu-loisir">
+                        <a href="loisir.html">Loisirs</a>
+                    </li>
+                    <li class="menu-contact">
+                        <a href="contact.html">Contactez-moi !</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <article>
+            <h2 style="display: none;">Présentation de mon portfolio</h2>
+            <section class="presentation">
+                <h2 id="stylebalise" class="h2-1" style="font-size: 40px; font-weight: normal; text-align:center;" >À propos de moi</h2>
+                <div class="sec">
+                    <div class="gauche">
+                        <img class="mon-image" src="Image/personne2.webp" alt="Bonhomme qui salut">
+                    </div>
+                    <div class="droite">
+                        <p>Bonjour, Je m'appelle Nasser Diogo Caetano Hodroj, je suis âgé de 24 ans et <em>étudiant à <strong>l'EPFC</strong></em>.</p>
+                        <p>Je suis actuellement en première année en <em>Bachelier informatique de gestion</em>, une formation qui me permet d'acquérir des compétences en développement, en base de données, en réseau et en gestion de projet.</p>
+                        <p>Ceci est mon premier site web, c'est un petit <strong>portfolio personnel</strong> qui sert pour mon projet du cours de web. À travers ce site, je souhaite présenter mes compétences, mes loisirs, et mes sites web préférés.</p>
+                        <p>Passionné par la technologie 💻, j'aime relever des défis techniques, apprendre de nouvelles choses chaque jour et j'aimerais pouvoir développer des applications utiles.</p>
+                        <p>Ce site a été réalisé en <em>HTML, CSS et JavaScript,</em> en respectant les bonnes pratiques de <em>développement web.</em> Il est responsive, structuré avec des balises sémantiques et contient plusieurs pages interconnectées.</p>
+                        <p>N'hésitez pas à consulter d'avantage ma page ou à me contacter via le formulaire disponible dans la section <em>Contact</em> !</p>
+                    </div>
+                </div>
+            </section>
+            <section class="parcours">
+                <h2 class = "h2-2" style="font-size: 40px; font-weight: normal; text-align:center;">Parcours et expériences</h2>
+                <div class="sec">
+                    <h3>Experiences professionnelles</h3>
+                    <div class="exp">
+                        <div class="gauche">
+                            <h4>2019-2021</h4>
+                        </div>
+                        <div class="droite">
+                            <h4>Inventoriste RGIS</h4>
+                            <p>Réalisation d'inventaires physiques dans divers magasins, travail de nuit, précision et rapidité exigées.</p>
+                        </div>
+                        <div class="gauche">
+                            <h4>2021-2022</h4>
+                        </div>
+                        <div class="droite">
+                            <h4>Collaborateur de tri chez Bpost</h4>
+                            <p>Tri manuel et automatique de colis et lettres, respect des délais, travail en équipe et rigueur quotidienne.</p>
+                        </div>
+                        <div class="gauche">
+                            <h4>2022-2023</h4>
+                        </div>
+                        <div class="droite">
+                            <h4>Collaborateur commercial chez Bpost</h4>
+                            <p>Accueil client, gestion des envois, conseils sur les services postaux, encaissement, et bonne communication.</p>
+                        </div>
+                    </div>
+                    <h3>Parcours scolaire</h3>
+                    <div class="exp">
+                        <div class="gauche">
+                            <h4>2013-2017</h4>
+                        </div>
+                        <div class="droite">
+                            <h4>Étudiant secondaire - ARWSL</h4>
+                            <p>Option scientifique à l'Athénée Royale De Woluwe Saint Lambert</p>
+                        </div>
+                        <div class="gauche">
+                            <h4>2017-2019</h4>
+                        </div>
+                        <div class="droite">
+                            <h4>Étudiant secondaire - IEJ</h4>
+                            <p>Option science-économique à l'Institut Enfant Jésus</p>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+            <section id="tab" class="competences">
+                <div class="sec">
+                    <h2 class="h2-3" style="font-size: 40px; font-weight: normal; text-align:center;">Mes compétences techniques</h2>
+                    <table class="competence-table">
+                        <thead>
+                            <tr>
+                                <th>Compétence</th>
+                                <th>Niveau</th>
+                                <th>Début</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML/CSS</td>
+                                <td>Débutant</td>
+                                <td>2025</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>Intermédiaire</td>
+                                <td>2024</td>                     
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>Débutant</td>
+                                <td>2025</td>
+                            </tr>
+                            <tr>
+                                <td>SQL</td>
+                                <td>Intermédiaire</td>
+                                <td>2024</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>                
+        </article>
+        <footer>
+            <p>&copy; 2025 Nasser Diogo Caetano. Suivez-moi sur :</p>
+            <a href="https://www.linkedin.com/in/diogo-nasser-caetano-559865362/" target="_blank" aria-label="Profil LinkedIn de Nasser Diogo Caetano">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a> |
+            <a href="https://github.com/Diogo1140" target="_blank" aria-label="Profil Github de Nasser Diogo Caetano">
+                <i class="fab fa-github"></i> GitHub
+            </a> |
+            <a href="https://x.com/diogocaeta18902" target="_blank" aria-label="Profil Twitter de Nasser Diogo Caetano">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </footer>
+        <script src="monScript.js"></script>
+    </body>
+</html>

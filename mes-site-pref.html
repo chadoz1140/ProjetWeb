@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Mon portfolio - Mes sites préféré</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Découvrez mes sites web favories.">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <style>
+            h1 {
+                font-size: 2.5em;
+                font-weight: bold;
+                text-align: center;
+                color: #2c3e50;
+                margin-top: 40px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 10px;
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media screen and (max-width: 640px) {
+                h1{
+                    font-size: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Portfolio de Nasser Diogo Caetano</h1>
+        </header>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" aria-label="Fermer le menu de navigation">&times;</a>
+            <a href="mes-site-pref.html#moniframe">Vers insert</a>
+            <a href="contact.html">Vers formulaire</a>
+            <a href="mes-site-pref.html#form2">Vers formulaire 2</a>
+            <a href="loisir.html#form3">Vers formulaire 3</a>
+            <a href="index.html#tab">Vers tableau</a>
+            <a href="loisir.html#mavideo">Vers video</a>
+            <a href="index.html#styleinterne">Vers style interne css</a>
+            <a href="index.html#stylebalise">Vers CSS au sein d'une balise HTML.</a>
+            <a href="index.html">Vers :before</a>
+            <a href="loisir.html">Vers :after</a>
+            <a href="contact.html">Vers :hover</a>
+            <a href="contact.html">Vers :focus</a>
+            <a href="contact.html">Vers span</a>
+            <a href="index.html">Vers strong</a>
+            <a href="index.html">Vers em</a>
+            <a href="index.html">Vers inline-block</a>
+            <a href="index.html">Vers section</a>
+            <a href="index.html">Vers nav</a>
+            <a href="index.html">Vers article</a>
+            <span class="spec">Position absolue CSS ligne 337 & 349 (pour menu js).</span>
+            <span class="spec">Superposition partielle  CSS ligne 305 (pour menu js).</span>
+            <span class="spec">Overflow CSS ligne 309 & 310(menu js)</span><br><br><br>
+        </div>
+        <button class="openbtn" onclick="openNav()" aria-label="Ouvrir le menu de navigation">&#9776; Menu avec tout les élements</button>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li class="menu-accueil">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="menu-exp">
+                        <a href="mes-site-pref.html">Mes sites web préférés</a>
+                    </li>
+                    <li class="menu-loisir">
+                        <a href="loisir.html">Loisirs</a>
+                    </li>
+                    <li class="menu-contact">
+                        <a href="contact.html">Contactez-moi !</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="orange">
+            <h2 class="h2-4" style="font-size: 40px; font-weight: normal; text-align:center;">Rester toujours informé</h2>
+            <div class="sec" >
+                <p><em>La Libre</em> est un site d'information belge que je consulte quotidiennement pour me tenir informé de l'actualité nationale et internationale. Ce média propose des articles variés, allant de la politique à la culture, en passant par l'économie et les faits divers.</p>
+                <p>J'apprécie particulièrement la clarté de son interface, la qualité de ses analyses, ainsi que la régularité de ses mises à jour, qui en font une source fiable et agréable à consulter au quotidien.</p>
+                <iframe id="monifrfame" class="iframe" src="https://www.lalibre.be/" width="600" height="400"></iframe>  
+            </div>
+        </section>
+        <section class="rose">
+            <h2 class="h2-5" style="font-size: 40px; font-weight: normal; text-align:center;">Apprend à developper</h2>
+            <div class="sec">
+                <p><em>Developpez.com</em> est, selon moi, l'un des meilleurs <em>sites pour apprendre la programmation et l'algorithmique</em>, quels que soient les langages. Il propose une vaste sélection de contenus pédagogiques allant du <em>Java, C# et SQL</em> jusqu'au langage assembleur.</p>
+                <p> Chaque tutoriel est structuré avec soin, accompagné d'exemples concrets, de forums actifs, et de ressources claires qui facilitent la compréhension, même pour les débutants.</p>
+                <iframe class="iframe2" src="https://general.developpez.com/cours/" width="600" height="400"></iframe>
+            </div>
+        </section>
+        <section class="vert">
+            <h2 class="h2-6" style="font-size: 40px; font-weight: normal; text-align:center;">Un site à partager ?</h2>
+            <div id="form2" class="sec2">
+                <p><span>Tu connais un site intéressant ou utile ? N'hésite pas à me le faire découvrir en le partageant ici !</span></p>
+                <div><br>
+                    <form method="post" action="mailto:diogo--caetano@hotmail.com">
+                        <label for="prenom">Entrez votre prénom</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required><br><br>
+
+                        <label for="site">Entrez votre site</label>
+                        <input type="url" name="site" id="site" placeholder="Entrez votre site" required><br><br>
+
+                        <input type="submit" value="Envoyer" style="cursor: pointer;">
+                    </form>
+                </div>    
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 Nasser Diogo Caetano. Suivez-moi sur :</p>
+            <a href="https://www.linkedin.com/in/diogo-nasser-caetano-559865362/" target="_blank" aria-label="Profil LinkedIn de Nasser Diogo Caetano">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a> |
+            <a href="https://github.com/Diogo1140" target="_blank" aria-label="Profil Github de Nasser Diogo Caetano">
+                <i class="fab fa-github"></i> GitHub
+            </a> |
+            <a href="https://x.com/diogocaeta18902" target="_blank" aria-label="Profil Twitter de Nasser Diogo Caetano">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </footer>
+        <script src="monScript.js"></script>
+    </body>
+</html>
