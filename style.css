@@ -299,7 +299,7 @@ textarea:focus {
 }
 
 .sidepanel {
-    height: 680px; 
+    height: 850px; 
     width: 0; 
     position: fixed; 
     z-index: 1; 
