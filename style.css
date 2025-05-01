@@ -121,7 +121,7 @@ p{
 }
 
 aside {
-    background-color: #f0f8ff; 
+    background-color: #f0f8ffbd; 
     border-left: 5px solid #2b8a3e; 
     padding: 15px;
     margin: 30px 0;
@@ -262,7 +262,8 @@ label{
 
 .exp-droite{
     width: 45%;
-    float: left;
+    float: right;
+    
 }
 
 .exp-gauche img{
@@ -653,5 +654,33 @@ footer i {
         
     } 
 
+    footer {
+        height: 20vh;
+    }      
+
+    .exp-droit{
+        margin-left: 60%;
+    }
+
+    .mon-voyage{
+        width: 50%;
+        padding-top: 100px;
+    }
+
+    .sec video{
+        width: 400px;
+        margin-top: 150px;
+        
+    }
+  
 }
+
+
+@media screen and (min-width: 1001px) and (max-width: 1250px) {
+    .mon-voyage{
+        width: 60%;
+    }
+    
+}
+
 
